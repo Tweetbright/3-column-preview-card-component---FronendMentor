@@ -23,7 +23,7 @@ section{
     width: 850px;
     display: flex;
     flex-direction: row;
-    height: 450px;
+    height: auto;
     overflow: hidden;
     
 }
@@ -76,4 +76,15 @@ button {
 }
 #card3 button {
     color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width:650px) {
+    body{
+    overflow: scroll;
+    height: fit-content;
+    }
+    
+    section {
+        flex-direction: column;
+    }
 }
