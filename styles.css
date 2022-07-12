@@ -68,6 +68,12 @@ button {
     font-family: Lexend Deca;
 }
 
+button:hover{
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
 #card1 button {
     color: hsl(31, 77%, 52%);
 }
@@ -76,6 +82,10 @@ button {
 }
 #card3 button {
     color: hsl(179, 100%, 13%);
+}
+
+#card1 button:hover, #card2 button:hover, #card3 button:hover{
+    color: white;
 }
 
 @media screen and (max-width:650px) {
